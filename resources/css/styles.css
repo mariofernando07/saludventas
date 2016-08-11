@@ -58,6 +58,15 @@
   align-items: center;
   justify-content: center;
 }
-   .boton {
+
+.boton_icon1 {
+  background-image: url(../img/portafolio.png);
+}
+
+.boton_icon2 {
+  background-image: url(../img/RecibidoProductos.png);
+}
+
+.boton {
      margin: 10px;
-   }
+}

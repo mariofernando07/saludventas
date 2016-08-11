@@ -5,7 +5,7 @@ import { PublicidadComponent } from "./components/publicidad.component";
 @Component({
     selector: "init-app",
     templateUrl: "app/app.html",
-    directives: [ FormRegTercero ]
+    directives: [ FormRegTercero, PublicidadComponent ]
 })
 export class AppComponent {
 
