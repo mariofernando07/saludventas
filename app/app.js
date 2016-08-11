@@ -8,7 +8,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var platform_browser_dynamic_1 = require("@angular/platform-browser-dynamic");
 var core_1 = require("@angular/core");
 var registroTercero_component_1 = require("./components/registroTercero.component");
-var publicidad_component_1 = require("./components/publicidad.component");
 var AppComponent = (function () {
     function AppComponent() {
     }
@@ -16,7 +15,7 @@ var AppComponent = (function () {
         core_1.Component({
             selector: "init-app",
             templateUrl: "app/app.html",
-            directives: [registroTercero_component_1.FormRegTercero, publicidad_component_1.PublicidadComponent]
+            directives: [registroTercero_component_1.FormRegTercero]
         })
     ], AppComponent);
     return AppComponent;

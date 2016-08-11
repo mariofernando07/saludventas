@@ -1,0 +1,63 @@
+   @font-face {
+    font-family: TenbyFive;
+    src: url(../fonts/tenby-five.otf);
+  }
+
+   @font-face {
+    font-family: Chivo;
+    src: url(../fonts/Chivo-regular.ttf);
+  }
+
+  body {
+    font-family: Chivo;
+  }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #ACC245 ;
+   }
+
+      /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #ACC245;
+     box-shadow: 0 1px 0 0 #000;
+   }
+
+   .color-option {
+       color: #ACC245;
+   }
+
+   .green_allnexus {
+     background-color: #ACC245;
+   }
+
+   .gray_allnexus {
+     background-color: rgb(127, 128, 128);
+   }
+
+   .black_allnexus {
+     background-color: #353535;
+   }
+
+    .gray_text_allnexus {
+     font-family: TenbyFive;
+     color: rgb(127, 128, 128);
+   }
+
+   .black_text_allnexus {
+     font-family: TenbyFive;
+     color: #353535;
+   }
+
+    .green_text_allnexus {
+     color: #ACC245;
+   }
+
+#contenedor_registro {
+  display: flex;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+}
+   .boton {
+     margin: 10px;
+   }
