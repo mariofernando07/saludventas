@@ -22,6 +22,17 @@
      box-shadow: 0 1px 0 0 #000;
    }
 
+   /* label focus color */
+   .input-field input[type=email]:focus + label {
+     color: #ACC245 ;
+   }
+
+      /* label underline focus color */
+   .input-field input[type=email]:focus {
+     border-bottom: 1px solid #ACC245;
+     box-shadow: 0 1px 0 0 #000;
+   }
+
    .color-option {
        color: #ACC245;
    }
@@ -68,5 +79,5 @@
 }
 
 .boton {
-     margin: 10px;
+     margin-right: 10px;
 }

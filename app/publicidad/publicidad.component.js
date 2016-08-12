@@ -6,15 +6,15 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var core_1 = require("@angular/core");
-var FormRegTercero = (function () {
-    function FormRegTercero() {
+var PublicidadComponent = (function () {
+    function PublicidadComponent() {
     }
-    FormRegTercero = __decorate([
+    PublicidadComponent = __decorate([
         core_1.Component({
-            selector: "fm-regtercero",
-            templateUrl: "app/components/registroTercero.component.html"
+            selector: "pb-publicidad",
+            templateUrl: "app/publicidad/publicidad.component.html"
         })
-    ], FormRegTercero);
-    return FormRegTercero;
+    ], PublicidadComponent);
+    return PublicidadComponent;
 }());
-exports.FormRegTercero = FormRegTercero;
+exports.PublicidadComponent = PublicidadComponent;

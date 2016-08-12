@@ -7,8 +7,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 var platform_browser_dynamic_1 = require("@angular/platform-browser-dynamic");
 var core_1 = require("@angular/core");
-var registroTercero_component_1 = require("./components/registroTercero.component");
-var publicidad_component_1 = require("./components/publicidad.component");
+var registroTercero_component_1 = require("./registro/registroTercero.component");
+var publicidad_component_1 = require("./publicidad/publicidad.component");
 var AppComponent = (function () {
     function AppComponent() {
     }
