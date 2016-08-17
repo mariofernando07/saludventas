@@ -1,13 +1,7 @@
 <div class="slider">
     <ul class="slides">
-        <li>
-             <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSuoL6Lfk0j_0NhfOdjxooRM-F0sXFoLS4mru35-zTb3KP-IPea">
-        </li>
-        <li>
-            <img src="http://mka-world.com/wp-content/uploads/2015/11/Roche-Labs-Logo.jpg">
-        </li>
-        <li>
-            <img src="http://ambientebogota.gov.co/image/image_gallery?uuid=e0e66547-45de-4ea9-8c42-33735838e3c3&groupId=23918&t=1362768100833">
+        <li *ngFor='let p of listPublicidad'>
+            <img [src]="p.url">
         </li>
     </ul>
 </div>
