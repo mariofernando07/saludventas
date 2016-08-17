@@ -11,14 +11,12 @@ export class PublicidadComponent implements OnInit {
 
     public listPublicidad: Publicidad[] = [];
 
-    constructor(private publicidadService:PublicidadService ) { 
-        this.listPublicidad = this.publicidadService.getPublicidad();
-    }
+    constructor(private publicidadService:PublicidadService ) { }
 
      ngOnInit() { 
         //console.log("Entro ngOnInit ...");        
         this.listPublicidad = this.publicidadService.getPublicidad();
-        console.log(this.listPublicidad);
+        //console.log(this.listPublicidad);
     }
 
 }
