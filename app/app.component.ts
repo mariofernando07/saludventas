@@ -4,10 +4,9 @@ import { FormRegTercero } from "./registro/registroTercero.component";
 import { PublicidadComponent } from "./publicidad/publicidad.component";
 @Component({
     selector: "init-app",
-    templateUrl: "app/app.html",
+    templateUrl: "app/app.component.html",
     directives: [ FormRegTercero, PublicidadComponent ]
 })
 export class AppComponent {
 
 }
-bootstrap(AppComponent);

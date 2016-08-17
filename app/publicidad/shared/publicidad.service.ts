@@ -5,6 +5,7 @@ import { Publicidad } from "./publicidad";
 export class PublicidadService {  
     
     getPublicidad() {
+        //console.log("Entro PublicidadService...");
         let listPublicidad: Publicidad[] = [];
         let p1 = new Publicidad();
         p1.provedor ="Genfar";
@@ -18,7 +19,6 @@ export class PublicidadService {
         p3.provedor ="Roche";
         p3.url = "http://ambientebogota.gov.co/image/image_gallery?uuid=e0e66547-45de-4ea9-8c42-33735838e3c3&groupId=23918&t=1362768100833";
         listPublicidad.push(p3); 
-        console.log(listPublicidad);   
         return listPublicidad;            
     }
 }
