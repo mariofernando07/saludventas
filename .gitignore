@@ -2,6 +2,5 @@ typings
 app/**/*.js
 app/**/*.map
 node_modules/
-resources/img/
 *.log
 npm-debug.log.4290186411 
